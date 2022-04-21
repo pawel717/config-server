@@ -4,7 +4,7 @@ spring:
       enabled: true
   datasource:
     url: jdbc:h2:mem:customers
-    password: {cipher}593920fcf69793a265899cfdf55a9c13d79775901b01c1676675eab52192fc6d
+    password: '{cipher}593920fcf69793a265899cfdf55a9c13d79775901b01c1676675eab52192fc6d'
   jpa:
     hibernate:
       ddl-auto: none
